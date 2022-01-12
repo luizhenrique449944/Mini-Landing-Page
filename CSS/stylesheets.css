@@ -1,0 +1,76 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+.borda {
+    border: 2px solid black;
+    width: 585px;
+    height: 280px;
+    position: relative;
+    top: 480px;
+    margin: auto;
+    padding: 20px; 
+    font-size: 15px; 
+    background-color: rgb(3, 238, 246);
+    border-radius: 15px;
+}
+input {
+    font-family: 'Vujahday Script', cursive;
+    font-size: 18px;
+}
+.borda input[type=text] {
+      width: 85%;
+      margin-bottom: 5px;
+      position: relative;
+      left: 20px;
+      height: 20px;
+      width: 500px;
+}
+label { 
+      position: relative;
+      bottom: 2px;
+}
+input:hover {
+      background-color: #06aaeb;
+}
+.borda input[type=submit] {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    width: 87%;
+    background-color: #060aeb;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+.borda input[type=submit]:hover {
+    background-color: #a200ff;
+    color: black;
+}
+.textarea {
+    margin-bottom: 5px;
+    position: relative;
+    left: 20px;
+    width: 86%;
+    height: 40%;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 25px;
+}
+textarea:hover {
+    background-color: #06aaeb;
+}
+label {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.video {
+    min-width: 100%;
+    min-height: 100%;
+    position:fixed;
+}
